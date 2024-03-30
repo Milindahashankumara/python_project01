@@ -1,6 +1,8 @@
-n = 5
 
-for (n=1; n>5; n++):
+n=30
+
+while n>1:
     print(n)
-
+    n = n-2
+    
 print("End")    
