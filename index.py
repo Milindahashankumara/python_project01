@@ -1,13 +1,15 @@
+# Get input from the user
+a = input("Enter value a = ");
+b = input("Enter value b = ");
 
-'''
-n=30
+# Convert inputs to integers
+a = int(a)
+b = int(b)
 
-while n>1:
-    print(n)
-    n = n-2
-    
-print("End") 
+# Swap values
+a = a + b
+b = a - b
+a = a - b
 
-''' 
-
-print ("Milinda")
+# Print the swapped values
+print("a =", a, '\n', "b =", b);
